@@ -14,7 +14,5 @@ app.get('/item', (request, response) => {
 
 		response.send(JSON.stringify(data));
 	});
-
-	let data = {};
 });
 app.listen(process.env.PORT || 3001);
