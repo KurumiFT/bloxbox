@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 var pg = require('pg');
-var conString = "postgres://admin:aG4qbi7ealJJIYqLOZsNnBX6RMOgsf8b@dpg-cdihrtqen0hi0coa5vb0-a/items";
+var conString = "postgres://bloxbox_user:KN4T5E86dnY1QuyLJy6iNAJK1sykopOJ@dpg-cfl32kpmbjsn9efp51mg-a/bloxbox";
 
 var client = new pg.Client(conString);
 client.connect();
